@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+</head>
+<body>
+    <header class="container">
+        <a href="#" class="logo_1">{ВОТЕР}</a>
+        <div class="nav">
+            <a href="/home.html">ГЛАВНАЯ</a>
+            <a href="#" class="o_nas">О НАС</a>
+            <a href="#">МАГАЗИН</a>
+            <a href="#">УСЛОВИЯ</a>
+            <a href="#">КОНТАКТЫ</a>
+        </div>
+    </header>
+    <main>
+        <section class="welcome container">
+            <div class="text">
+                <h1>Добро пожаловать в {ВОТЕР}</h1>
+                <h2>место, где сила и креативность воплощаются в каждом штрихе.</h2>
+            </div>
+        </section>
+        <section class="dream">
+        <div class="text">
+            <h1>Наш путь начался с мечтой о создании среды,</h1>
+            <h2>где каждый желающий сможет погрузиться в мир графическ<span>ого</span> дизайна. с каждым годом мы <span>строим</span> не просто курсы, а образоват<span>ельное</span> пространство, где таланты расцветают</h2>
+        </div>
+            
+        </section>
+        <section class="mission container">
+            <div class="text">
+                <h1>В центре нашей работы - ценности качества, инноваций и поддержки</h1>
+                <h2>наша миссия - дать вам инструменты и знания для того, чтобы вы могли выразить свои идеи через искусство дизайна</h2>
+            </div>
+        </section>
+        <section class="comment">
+            <h1>Отзывы клиентов</h1>
+            <div class="swiper mySwiper indexSliderProduct">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="name">
+                            <img src="images/account_circle.png" alt="">
+                            <div class="name_0">
+                                <h3>Анна.С</h3>
+                                <h4>Графический дизайнер</h4>
+                            </div>
+                        </div>
+                        <div class="text">
+                            <p class="anna">Прохождение курса в {Вотер} было для меня настоящим открытием. Профессионализм преподавателей и уникальный подход к обучению позволили мне раскрыть новые горизонты в дизайне. Я влюбилась в эту программу!</p>
+                        </div>
+                        <p class="data">11.09.2023</p>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="name">
+                            <img src="images/account_circle.png" alt="">
+                            <div class="name_0">
+                                <h3>Иван.Р</h3>
+                                <h4>Графический дизайнер</h4>
+                            </div>
+                        </div>
+                        <div class="text">
+                            <p>Курсы 'Вотер' – это не только новые знания, но и новый способ мышления. Я научился не только техническим навыкам, но и тому, как быть креативным в каждом проекте.</p>
+                        </div>
+                        <p class="data">03.11.2023</p>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="name">
+                            <img src="images/account_circle.png" alt="">
+                            <div class="name_0">
+                                <h3>Мария.Л</h3>
+                                <h4>Начинающий дизайнер</h4>
+                            </div>
+                        </div>
+                        <div class="text">
+                            <p>Я выбрала 'Вотер' из-за их индивидуального подхода и возможности применить знания на практике. Это не просто обучение, это опыт, который меняет взгляд на дизайн.</p>
+                        </div>
+                        <p class="data">01.10.2023</p>
+                    </div>
+                    <div class="swiper-slide"><div class="name">
+                        <img src="images/account_circle.png" alt="">
+                        <div class="name_0">
+                            <h3>Михаил.П</h3>
+                            <h4>Студент дизайна</h4>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <p>В 'Вотер' я нашел не просто курсы, но и целое сообщество, где каждый находит поддержку и вдохновение. Благодаря этому обучению, я уверен, что могу достичь своих целей в дизайне.</p>
+                    </div>
+                        <p class="data">30.09.2023</p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="reviews">
+                <button type="button" class="btn btn-primary-1 btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">оставить отзыв</button>
+                    
+                <!-- Модальное окно -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">оставить отзыв</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                        </div>
+                        <div class="modal-body">
+                            <input type="text" placeholder="имя">
+                            <input type="email" placeholder="e-mail">
+                            <input type="text" placeholder="комментарий">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary btn-primary-2">оставить</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="logo">
+            <a href="#">{ВОТЕР}</a>
+            <p>лучшая школа дизайна</p>
+        </div>
+        <div class="contact">
+            <p>8 300 400-01-52</p>
+            <p>support@water.ru</p>
+        </div>
+        <div class="additionally dop">
+            <a href="#">Политика конфиденциальности</a>
+            <a href="#">Партнерская программа</a>
+        </div>
+        <div class="additionally">
+            <a href="#">Оферта</a>
+            <a href="#">Условия акции</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

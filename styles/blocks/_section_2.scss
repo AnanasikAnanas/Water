@@ -1,0 +1,37 @@
+.dream{
+    background-color: white;
+    background-image: url(/images/Shape\ -65\ 1.png);
+    background-repeat: no-repeat;
+    background-position-x: 1080px;
+    background-position-y: 250px;
+    max-height: 1080px;
+    max-width: 100%;
+    padding-left: 160px;
+    h1{
+        display: flex;
+        text-align: start;
+        justify-content: center;
+        align-items: center;
+        padding-top: 130px;
+        font-size: 96px;
+        margin-bottom: 0px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.44px;
+    }
+    h2{
+        font-size: 64px;
+        margin-top: 10px;
+        font-family: Golos Text;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        max-width: 1178px;
+        height: 575px;
+        line-height: 120%;
+        span{
+            color: white;
+        }
+    }
+}

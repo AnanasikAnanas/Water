@@ -1,0 +1,114 @@
+.modal-1{
+    padding-left: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    .zag{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        h1{
+            font-size: 48px;
+            font-weight: 400;
+            color: white;
+            letter-spacing: 0.72px;
+            margin-bottom: 0px;
+        }
+        h2{
+            font-size: 16px;
+            color: #949494;
+            font-family: Golos Text, sans-serif;
+            margin-top: 0px;
+        }
+    }
+    .okno{
+        background-image: url(/images/Frame\ 1171276329.png);
+        background-repeat: no-repeat;
+        background-position-x: 450px;
+        background-position-y: 0px;
+        gap: 96px 128px;
+        max-height: 669px;
+        max-width: 1400px;
+        display: flex;
+        flex-direction: column;
+        padding: 60px 92px 72px 60px;
+        border-radius: 45px;
+        background-color: #FEFEFE;
+        h2{
+            font-size: 36px;
+            font-family: Golos Text, sans-serif;
+            color: #131313;
+            margin-bottom: 0px;
+            font-weight: 400;
+        }
+        .zag-2{
+            width: 673px;
+            margin-top: 0px;
+            h4{
+                font-size: 36px;
+                font-family: Golos Text, sans-serif;
+                color: #949494;
+                margin-bottom: 0px;
+                font-weight: 400;
+            }
+            h1{
+                font-size: 96px;
+                margin-top: 10px;
+                font-weight: 400;
+                letter-spacing: -1.92px;
+            }
+        }
+    }
+    .lesson-1{
+        display: flex;
+        gap: 128px;
+        button{
+            display: flex;
+            padding: 24px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 25px;
+            background: var(--black1, #131313);
+            height: 91px;
+            max-width: 580px;
+            font-size: 36px;
+            font-family: Golos Text, sans-serif;
+            color: white;
+            cursor: pointer;
+            border: none;
+            font-weight: 400;
+        }
+        .navig{
+            width: 740px;
+            height: 100px;
+            display: flex;
+            gap: 60px;
+            font-family: Golos Text, sans-serif;
+            .navig-1{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                gap: 10px;
+                width: 340px;
+                height: 99px;
+                padding: 10px 20px;
+                border-radius: 25px;
+                background: rgba(254, 254, 254, 0.40);
+                backdrop-filter: blur(10px);
+                h5{
+                    font-size: 36px;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                    font-weight: 400;
+                }
+                h6{
+                    font-size: 16px;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                    color: #5A5A5A;
+                }
+            }
+        }
+    }
+}

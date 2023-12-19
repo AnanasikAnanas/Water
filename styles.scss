@@ -1,0 +1,159 @@
+@import "./styles/blocks/header";
+@import "./styles/blocks/section_1";
+@import "./styles/blocks/section_2";
+@import "./styles/blocks/section_3";
+@import "./styles/blocks/comment";
+@import "./styles/blocks/footer";
+@import "./styles-2/design";
+@import "./styles-2/lessons";
+@import "./styles-2/modal-1";
+
+html {
+    scroll-behavior: smooth;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+body{
+    font-family: KrasnodarGrotesk, sans-serif;
+    background-color: #131313;
+    margin: 0 auto;
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 360px){
+    .container{
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    header{
+        display: none;
+    }
+    .welcome{
+        max-width: 360px;
+        height: 540px;
+        margin-top: 0px;
+        background-image: url(/images/Shape\ -49\ 1.png);
+        background-repeat: no-repeat;
+        background-position-x: 150px;
+        background-position-y: 100px;
+        h1{
+            font-size: 40px;
+            height: 126px;
+            letter-spacing: 0.6px;
+        }
+        h2{
+            font-size: 24px;
+        }
+    }
+    .dream{
+        width: 360px;
+        height: 725px;
+        background-image: url(/images/Shape\ -65\ 1.svg);
+        background-position-x: 160px;
+        background-position-y: 460px;
+        padding: 25px;
+        .text{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            h1{
+                padding: 0px;
+                font-size: 40px;
+                height: 210px;
+                letter-spacing: 0.6px;
+            }
+            h2{
+                font-size: 24px;
+                height: 261px;
+                span{
+                    display: none;
+                }
+            }
+        }
+    }
+    .mission{
+        background-image: url(/images/Shape\ -32\ 1.svg);
+        background-position-x: 15px;
+        background-position-y: 400px;
+        background-repeat: no-repeat;
+        width: 360px;
+        height: 725px;
+        .text{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            h1{
+                padding: 0px;
+                font-size: 40px;
+                letter-spacing: 0.6px;
+                width: 305px;
+            }
+            h2{
+                width: 305px;
+                padding: 0px;
+                font-size: 24px;
+                height: 261px;
+            }
+        }
+    }
+    .comment{
+        h1{
+            font-size: 40px;
+            letter-spacing: -0.8px;
+            padding-left: 20px;
+        }
+        .reviews{
+            .btn-primary-1{
+                display: flex;
+                width: 154px;
+                padding: 6px 8px 8px 8px;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                font-size: 16px;
+                border-radius: 7.5px;
+                background: rgba(39, 39, 39, 0.70);
+                backdrop-filter: blur(3.75px);
+            }
+            .modal-content{
+                display: flex;
+                width: 323px;
+                height: 398px;
+                padding: 40px 40px 49px 40px;
+                flex-direction: column;
+                gap: 40px;
+                border-radius: 45px;
+                background: var(--white, #FEFEFE);
+                h5{
+                    font-size: 32px;
+                    width: 243px;
+                }
+                .modal-body{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 20px;
+                    width: 209px;
+                    input{
+                        ::placeholder{
+                            font-size: 16px;
+                        }
+                    }
+                }
+                .btn-primary-2{
+                    display: flex;
+                    width: 140px;
+                    padding: 10px 20px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                }
+            }
+        }
+    }
+}

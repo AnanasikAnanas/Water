@@ -1,0 +1,47 @@
+footer{
+    background-color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    
+    .logo{
+        padding-left: 160px;
+        a{
+            font-size: 32px;
+            text-decoration: none;
+            color: black;
+            margin-bottom: 0px;
+        }
+        a:hover{
+            color: #949494;
+            transition: 0.5s ease-in-out;
+        }
+        p{
+            font-size: 12px;
+            color: #949494;
+            font-family: Golos Text;
+            margin-top: 0px;
+        }
+    }
+    .contact{
+        font-family: Golos Text;
+        margin-left: 143px;
+        p{
+            margin-bottom: 0px;
+            margin-top: 4px;
+        }
+    }
+    .additionally{
+        font-family: Golos Text;
+        display: flex;
+        flex-direction: column;
+        a{
+            color: #949494;
+            text-decoration: none;
+        }
+    }
+    .dop{
+        margin-left: 141px;
+        width: 280px;
+    }
+}
